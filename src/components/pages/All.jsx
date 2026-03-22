@@ -13,7 +13,7 @@ const All = () => {
   },[]);
 
   return (
-    <div className='flex flex-wrap overflow-auto gap-8 items-center justify-center'>
+    <div className='flex flex-wrap overflow-auto gap-8 mt-5 items-center justify-center '>
       {articles.map((elem, index)=>(
         <Card  key={index} elem={elem}/>
       ))}
