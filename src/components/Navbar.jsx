@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import { Newspaper } from 'lucide-react';
-import ScrollVelocity from './pages/marquee/scroll';
+
 
 const Navbar = () => {
   return (
