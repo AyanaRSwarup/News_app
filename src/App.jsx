@@ -6,7 +6,7 @@ import Entertainment from './components/pages/Entertainment'
 import Technology from './components/pages/Technology'
 import Health from './components/pages/Health'
 import Sports from './components/pages/Sports'
-import Scroll_data from './components/pages/marquee/Scroll_data.jsx'
+import Scrolldata from './components/pages/Marquee/Scrolldata.jsx'
 import Stock_api from './api/Stock_api'
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
       
         <Stock_api>
             <Navbar />
-            <Scroll_data />
+            <Scrolldata />
             <Routes>
               <Route path='/' element={<All/>}/>
               <Route path='/entertainment' element={<Entertainment/>}/>

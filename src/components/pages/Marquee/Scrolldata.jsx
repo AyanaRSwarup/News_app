@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { StockContext } from "../../../api/Stock_api";
-import ScrollVelocity from "./scroll";
+import ScrollVelocity from "./Scroll.jsx";
 
-const Scroll_data = () => {
+const Scrolldata = () => {
   const { stocks } = useContext(StockContext);
 
   const texts = stocks.map(
@@ -23,4 +23,4 @@ const Scroll_data = () => {
   );
 };
 
-export default Scroll_data;
+export default Scrolldata;
