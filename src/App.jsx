@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import { Routes, Route, Router } from 'react-router-dom'
-import All from './components/pages/all'
+import All from './components/pages/All'
 import Entertainment from './components/pages/Entertainment'
 import Technology from './components/pages/Technology'
 import Health from './components/pages/Health'
